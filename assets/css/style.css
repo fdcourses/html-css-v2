@@ -1,0 +1,15 @@
+.wrapper {
+  border: 5px solid red;
+  height: 400px;
+  width: 300px;
+
+
+  /*
+    overflow: hidden | auto | scroll | visible
+  */
+  overflow-y: scroll;
+}
+
+.inner {
+  border: 5px solid green;
+}
