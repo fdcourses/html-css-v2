@@ -1,12 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.board {
+  border: 5px solid;
+}
+
 .div {
   display: inline-block;
-  min-width: 20vw;
+  min-width: 33%;
   min-height: 20vw;
-  background-color: dodgerblue;
+  background-color: black;
   border: 2px solid black;
 
   color: white;
   text-align: center;
+}
+
+.white-square {
+  opacity: 0;
 }
 
 .hidden-1 {
