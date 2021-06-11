@@ -3,22 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Practice</title>
   </head>
   <body>
-
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-    <ol>
-      <li>ol 1</li>
-      <li>ol 2</li>
-      <li>ol 3</li>
-    </ol>
-
+    <table>
+      <caption>
+        Tariff plan
+      </caption>
+      <thead>
+        <tr>
+          <td>Heading 1</td>
+          <td>Heading 2</td>
+          <td>Heading 3</td>
+          <td>Heading 4</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Строка 1 столбец 1</td>
+          <td>Строка 1 столбец 2</td>
+          <td rowspan="2">Строка 1 столбец 3</td>
+          <td>Строка 1 столбец 4</td>
+        </tr>
+        <tr>
+          <td>Строка 2 столбец 1</td>
+          <td>Строка 2 столбец 2</td>
+          <td>Строка 2 столбец 4</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Всего: </td>
+          <td colspan="3">5000$</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
