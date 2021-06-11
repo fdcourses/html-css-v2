@@ -1,46 +1,11 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 0;
+h1 {
+  font-size: 10px;
 }
 
-.board {
-  border: 5px solid;
-}
+ul, ol {
+  list-style: none;
 
-.div {
-  display: inline-block;
-  min-width: 33%;
-  min-height: 20vw;
-  background-color: black;
-  border: 2px solid black;
-
-  color: white;
-  text-align: center;
-}
-
-.white-square {
-  opacity: 0;
-}
-
-.hidden-1 {
-  /* 
-    скрывает элемент от поиска, 
-    скринридеров, и место для 
-    отрисовки не дает 
-  */
-  display: none;
-}
-.hidden-2 {
-  /* 
-    прозрачность
-    при нуле просто делает 
-    невидимым для людей,
-    роботы все видят 
-  */
-  opacity: 0;
-}
-.hidden-3 {
-  /* место зарезервировано, но программы не видят */
-  visibility: hidden;  
+  /* list-style-image: url('./../img/facebook.png'); */
+  /* list-style-type: upper-roman; */
+  /* list-style-position: outside; */
 }
