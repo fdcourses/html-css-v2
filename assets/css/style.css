@@ -32,15 +32,38 @@ p + p {
 
 /*
   группировка селекторов, применяет ко всем 
-*/
+
 .first, 
 .second {
   color: blue;
 }
+*/
 
 /* 
  по определенному аттрибуту
-*/
+
 [href="#"] {
   color: red;
+}
+*/
+
+
+article > h1 {
+  color: red;
+}
+
+ul > li {
+  color: green;
+}
+
+li + li {
+  color: blue;
+}
+
+ul + p {
+  color: blueviolet;
+}
+
+h2 ~ h2 {
+  color: gray;
 }
