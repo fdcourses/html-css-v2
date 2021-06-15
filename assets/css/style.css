@@ -1,69 +1,50 @@
-/* 
-  селектор дочерних элементов
-  на первом уровне вложенности 
-#content > p {
-  color: blue;
-} */
+li,
+button {
+  margin-top: 30px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+/*
+псевдокласс для события наведения на элементы :hover
+
+*/
+
+.link:hover {
+  background-color: forestgreen;
+}
 
 /*
-  все потомки на любом уровне 
-  вложенности
+  :not(selector) - применяет для всех элементов
+  кроме тех что в not
 
-#content p {
-  color: blue;
-}
-
-*/
-/*
- на одном уровне вложенности за h1
-
-h1 ~ p{
-  color: blue;
-}
- */
-
-/* 
-  на одном уровне вложенности сосед
-
-p + p {
-  color: blue;
+.link:hover:not(.btn) {
+  background-color: forestgreen;
 }
 */
+
+
 
 /*
-  группировка селекторов, применяет ко всем 
-
-.first, 
-.second {
-  color: blue;
+  текущий активыйн элемент (зажатая мышка)
+*/
+.link:active {
+  background: gray;
 }
+
+/*
+  для элементов в фокусе (перемещение табами)
+  outline - внешняя гранеица, 
+
 */
 
-/* 
- по определенному аттрибуту
-
-[href="#"] {
-  color: red;
-}
-*/
-
-
-article > h1 {
-  color: red;
-}
-
-ul > li {
-  color: green;
-}
-
-li + li {
-  color: blue;
-}
-
-ul + p {
-  color: blueviolet;
-}
-
-h2 ~ h2 {
-  color: gray;
+.link:focus {
+  border: 5px solid red;
+  outline: none;
 }
