@@ -1,50 +1,71 @@
-li,
-button {
-  margin-top: 30px;
+:root {
+  --table-border-radius: 20px;
+  --heading-color: green;
 }
 
-.link {
-  display: inline-block;
-  text-decoration: none;
-  background-color: dodgerblue;
-  padding: 8px 16px;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-/*
-псевдокласс для события наведения на элементы :hover
-
-*/
-
-.link:hover {
-  background-color: forestgreen;
+* {
+  box-sizing: border-box;
 }
 
-/*
-  :not(selector) - применяет для всех элементов
-  кроме тех что в not
+td {
+  padding: 10px 20px;
+  vertical-align: middle;
+  text-align: center;
 
-.link:hover:not(.btn) {
-  background-color: forestgreen;
-}
-*/
-
-
-
-/*
-  текущий активыйн элемент (зажатая мышка)
-*/
-.link:active {
-  background: gray;
 }
 
-/*
-  для элементов в фокусе (перемещение табами)
-  outline - внешняя гранеица, 
+thead td {
+  font-weight: bold;
+  color: var(--heading-color);
+}
 
-*/
+thead td:nth-child(1) {
+  background-color: #7887AB;
+  /* border-top-left-radius: calc(var(--table-border-radius) + 20%); */
+  border-top-left-radius: var(--table-border-radius);
+}
+thead td:nth-child(2) {
+  background: #4F628E;
+}
+thead td:nth-child(3) {
+  background: #2E4172;
+}
+thead td:nth-child(4) {
+  background: #162955;
+}
+thead td:nth-child(5) {
+  background: #061539;
+  border-top-right-radius: var(--table-border-radius);
+}
 
-.link:focus {
-  border: 5px solid red;
-  outline: none;
+table > :not(thead) > tr:nth-child(odd) > td:nth-child(odd) {
+  background: #DBDBDB;
+}
+table > :not(thead) > tr:nth-child(odd) > td:nth-child(even),
+table > :not(thead) > tr:nth-child(even) > td:nth-child(odd) {
+  background: #E7E7E7;
+}
+table > :not(thead) > tr:nth-child(even) > td:nth-child(even) {
+  background: #F3F3F3;
+}
+
+table > tbody > tr > td:first-child {
+  text-align: left;
+} 
+
+td > p {
+  margin: 20px 0 10px 0;
+  font-size: 20px;
+}
+
+tfoot > tr > td:first-child {
+  border-bottom-left-radius: var(--table-border-radius);
+}
+
+tfoot > tr > td:last-child {
+  border-bottom-right-radius: var(--table-border-radius);
+}
+
+div {
+  color: var(--heading-color);
 }
