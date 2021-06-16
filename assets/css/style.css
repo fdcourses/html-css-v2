@@ -1,61 +1,30 @@
-header {
-  height: 100vh;
+
+
+.nav-list {
+  font-size: 0;
 }
 
-.outer-wrapper {
-  width: 80%;
-  background: green;
-  height: 1000px;
-  margin: 0 auto;
-}
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-  height: 800px;
-  background: dodgerblue;
-
+.nav-list-item {
+  display: inline-block;
+  font-size: 16px;
+  background: yellowgreen;
+  border: 1px solid;
   position: relative;
 }
 
-.inner {
-  border: 2px solid;
-  width: 80px;
-  height: 80px;
-  font-size: 30px;
-  text-align: center;
-  background: yellow;
+.nav-list-item:hover {
+
+  background: green;
 }
 
-.positioned {
+.sub-nav-list {
   position: absolute;
-  left: 50px;
-  top: 0;
-  background: violet;
-  z-index: -1;
+  /* display: none; */
 }
 
-.positioned-2 {
-  position: absolute;
-  background: red;
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
   color: white;
-  left: 60px;
-  top: 0;
-  z-index: -1;
 }
-
-/*
-
-  position: 
-            static - по умолчанию
-            relative - занимает свое место в потоке, но может сдвигаться относительно него
-              с помощью top, left, right, bottom
-            absolute - не занимает места в основном потоке, но пытается находится 
-              там где должен был бы быть, скрывая элементы под ним. top, left, bottom ,right
-              влияют на его расположение относительно ближайшего относительно спозиционированного
-              родителя, иначе - html элементом
-            fixed - вырывается из потока как и absolute, но висит над своей точкой вне зависимости от
-              родителя, прикрепляется к вьюпорту
-            sticky - он существует (скорее всего вам не надо им пользоватся)
-
-*/
