@@ -13,13 +13,19 @@
 }
 
 .nav-list-item:hover {
-
   background: green;
 }
 
 .sub-nav-list {
   position: absolute;
-  /* display: none; */
+  /* width: 100%; */
+  display: none;
+  /* left: 0;
+  right: 0; */
+}
+
+.nav-list-item:hover > .sub-nav-list  {
+  display: inline-block;
 }
 
 .link {

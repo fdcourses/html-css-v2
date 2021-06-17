@@ -1,0 +1,22 @@
+.wrapper {
+  height: 200vh;
+  width: 400px;
+  margin: 0 auto;
+  background: chocolate;
+  /* position: relative; */
+}
+
+.div1,
+.div2,
+.div3 {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border: 5px solid;
+}
+
+.div2 {
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+}
