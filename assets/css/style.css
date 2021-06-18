@@ -1,4 +1,8 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 .nav-list {
   font-size: 0;
@@ -7,8 +11,6 @@
 .nav-list-item {
   display: inline-block;
   font-size: 16px;
-  background: yellowgreen;
-  border: 1px solid;
   position: relative;
 }
 
@@ -18,10 +20,8 @@
 
 .sub-nav-list {
   position: absolute;
-  /* width: 100%; */
+  width: 100%;
   display: none;
-  /* left: 0;
-  right: 0; */
 }
 
 .nav-list-item:hover > .sub-nav-list  {
@@ -30,7 +30,10 @@
 
 .link {
   display: block;
+  background: yellowgreen;
+  border: 1px solid black;
   text-decoration: none;
   padding: 10px 20px;
   color: white;
+  text-align: center;
 }
