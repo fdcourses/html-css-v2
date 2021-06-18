@@ -8,50 +8,40 @@
     <title>Practice</title>
   </head>
   <body>
-    <nav>
-      <ul class="nav-list">
-        <li class="nav-list-item">
-          <a class="link" href="#">link 1 </a>
-        </li>
-        <li class="nav-list-item">
-          <a class="link" href="#">link 2</a>
-          <ul class="sub-nav-list">
-            <li class="sub-nav-list-item nav-list-item">
-              <a class="link" title="sub link 1" href="#"> sub item 1</a>
-            </li>
-            <li class="sub-nav-list-item nav-list-item">
-              <a class="link"  href="#"> sub item 2</a>
-            </li>
-            <li class="sub-nav-list-item nav-list-item">
-              <a class="link"  href="#"> sub item 3</a>
-            </li>
-            <li class="sub-nav-list-item nav-list-item">
-              <a class="link"  href="#"> sub item 4</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-list-item">
-          <a class="link" href="#">link 3</a>
-        </li>
-        <li class="nav-list-item">
-          <a class="link" href="#">link 4</a>
-        </li>
-      </ul>
-    </nav>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum quas
-      nulla maxime nemo aspernatur cum voluptas ratione? Quas nostrum aspernatur
-      molestias nobis nihil voluptatum nulla minima commodi a, itaque adipisci
-      tenetur. Obcaecati, cumque voluptatibus nostrum dicta odit qui rem ea
-      ratione assumenda harum repellendus ad veritatis deleniti dolores quos
-      maxime commodi nulla alias atque maiores culpa molestiae. Quas laudantium
-      et in voluptate? Ad provident, qui quibusdam veritatis, perferendis
-      dolorum animi nesciunt reiciendis quas enim, repellat laborum mollitia?
-      Excepturi esse est nihil blanditiis dolore hic modi neque, labore tempora
-      sit sed? Quibusdam totam, suscipit in nisi ut nihil modi! Doloribus, nam?
-      Placeat explicabo itaque illo tempora, libero tenetur impedit neque, porro
-      eum ipsam natus? Officia error assumenda velit iusto sequi!
-    </p> 
+    <article class="card">
+      <header class="card-header">
+        <h1 class="card-header-name">John Doe</h1>
+      </header>
+      <section class="card-main">
+        <div class="img-wrapper">
+          <img class="img" src="./assets/img/image.png" alt="Jonh Doe" />
+        </div>
+        <p class="card-main-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quod
+          praesentium aliquid alias at voluptatum cum in repellendus temporibus
+          nemo aperiam quaerat tenetur voluptate velit fugiat eum quisquam, iste
+          distinctio?
+        </p>
+        <div class="columns-wrapper">
+          <div class="column">
+            <p class="column-count">108</p>
+            <p class="column-text">Followers</p>
+          </div>
+          <div class="column">
+            <p class="column-count">457</p>
+            <p class="column-text">followers</p>
+          </div>
+          <div class="column">
+            <p class="column-count">229</p>
+            <p class="column-text">followers</p>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-follow">follow</button>
+          <button class="btn btn-message">message</button>
 
+        </div>
+      </section>
+    </article>
   </body>
 </html>
