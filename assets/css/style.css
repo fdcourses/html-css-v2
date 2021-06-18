@@ -1,98 +1,46 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  background:black;
-  padding: 20px;
-}
-.card {
-  margin: 100px 100px;
-  display: inline-block;
-  width: 400px;
-  background: limegreen;
-  border-radius: 20px;
-  overflow: hidden;
-  /* white-space: nowrap;
-  text-overflow: ellipsis; */
+/* .text {
+  color :blue;
+  user-select: none;
+} */
+
+/* .text::first-letter {
+  color: red;
+  font-size: 3em;
 }
 
-.card-header {
-  background: linen;
-  text-align: center;
-  padding: 20px 0;
+.text::first-line {
+  background: darkgrey;
 }
 
-.card-header-name {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.card-main {
-  padding: 20px;
+.text::selection {
+  background: red;
   color: white;
+} */
+
+/* .text::before,
+.text::after {
+  content: url('./../img/facebook.svg');
+  background: red;
+  width: 100px;
+  height: 100px;
+  color: white; */
+  /* width: 50px;
+  height: 50px;
+  display: block; */
+/* } */
+
+/* ul {
+  list-style: none;
 }
 
-.img-wrapper {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 20px;
+
+
+li::before {
+  content: open-quote;
+  margin-right: 10px;
 }
 
-.img {
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.card-main-text {
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.columns-wrapper {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.column {
-  display: inline-block;
-}
-
-.column + .column {
-  margin-left: 20px;
-}
-
-.column-count {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.column-text {
-  font-size: 20px;
-  text-transform: capitalize;
-}
-
-.btn-container {
-  text-align: center;
-}
-
-.btn {
-  max-width: 150px;
-  text-transform: capitalize;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-}
-
-.btn-follow {
-  background: cornflowerblue;
-  color: white;
-}
-
-.btn-message {
-  margin-left: 20px;
-}
+li::after {
+  content: close-quote;
+  margin-left: 10px;
+} */
