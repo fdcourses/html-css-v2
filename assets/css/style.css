@@ -1,13 +1,12 @@
 @import "./reset.css";
 @import './fonts.css';
+@import './print.css' print;
+@import './screen.css' screen;
+@import './common.css' print, screen;
 
-
-h1 {
-  font-size: 32px;
-  /* font-weight: 900; */
-  /* font-style: italic; */
-
-  font-family: "Abracadabra";
-  font-weight: 600;
-  font-style: italic;
-}
+/* 
+ print
+ screen
+ speech
+ all
+*/
