@@ -1,4 +1,5 @@
 @import "./reset.css";
+@import './fonts.css';
 
 
 h1 {
@@ -6,5 +7,7 @@ h1 {
   /* font-weight: 900; */
   /* font-style: italic; */
 
-  font-family: "Jomhuria", cursive;
+  font-family: "Abracadabra";
+  font-weight: 600;
+  font-style: italic;
 }

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Abracadabra";
+  src: local("Caveat Plus"), 
+  local("Caveat-Plus"),
+  local("Caveat_Plus"),
+  local("CaveatPlus"),
+  url("./../fonts/Caveat-normal.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abracadabra";
+  src: local("Caveat Plus"), 
+  local("Caveat-Plus"),
+  local("Caveat_Plus"),
+  local("CaveatPlus"),
+  url("./../fonts/Caveat-medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Abracadabra";
+  src: local("Caveat Plus"), 
+  local("Caveat-Plus"),
+  local("Caveat_Plus"),
+  local("CaveatPlus"),
+  url("./../fonts/Caveat-semibold-italic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
