@@ -4,7 +4,7 @@
   local("Caveat-Plus"),
   local("Caveat_Plus"),
   local("CaveatPlus"),
-  url("./../fonts/Caveat-normal.ttf");
+  url("./../fonts/Caveat-VariableFont_wght.ttf");
   font-weight: 400;
   font-style: normal;
 }
