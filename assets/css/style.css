@@ -1,1 +1,10 @@
-@import './reset.css';
+@import "./reset.css";
+
+
+h1 {
+  font-size: 32px;
+  /* font-weight: 900; */
+  /* font-style: italic; */
+
+  font-family: "Jomhuria", cursive;
+}
