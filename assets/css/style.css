@@ -3,6 +3,7 @@
 @import './print.css' print;
 @import './screen.css' screen;
 @import './common.css' print, screen;
+@import './header.css';
 
 /* 
  print
