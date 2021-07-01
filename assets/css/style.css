@@ -1,9 +1,21 @@
 @import "./reset.css";
-@import './fonts.css';
-@import './print.css' print;
-@import './screen.css' screen;
-@import './common.css' print, screen;
-@import './header.css';
+@import "./fonts.css";
+@import "./card.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+  background-color: lightcyan;
+}
 
 /* 
  print
