@@ -1,1 +1,56 @@
 @import './reset.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 100vh;
+}
+
+.nav-list {
+  font-size: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-list__item {
+  display: inline-block;
+  position: relative;
+  background-color: dodgerblue;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list__link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  width: 150px;
+  font-size: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.nav-list__sub-nav-list {
+  position: absolute;
+  display: none;
+}
+
+.nav-list__item:hover  > .nav-list__sub-nav-list {
+  display: block;
+}
+
+.nav-list__sub-nav-list_position-right {
+  left: 100%;
+  top: 0;
+}
+
+.nav-list__sub-nav-list_position-right > .nav-list__item {
+ background: red;
+}
